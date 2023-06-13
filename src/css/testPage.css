@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "Damion";
+    src: url("../font/Damion.ttf");
+}
+@font-face {
+    font-family: "B612";
+    src: url("../font/B612.ttf");
+}
+@font-face {
+    font-family: "Shrikhand";
+    src: url("../font/Shrikhand.ttf");
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("../font/OpenSans.ttf");
+}
+
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1400px;
+    height: 1024px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Damion";
+}
+.header{
+    width: 73%;
+    height: 13%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    left: 0%;
+    right: 74.01%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Shrikhand';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 117px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #191B41;
+}
+.longLine{
+    width: 31%;
+    margin-left: 12%;
+    border: 4px solid #94ADDF;
+}
+.midLine{
+    width: 8%;
+    border: 4px solid #94ADDF;
+}
+.shortLine{
+    width: 3.8%;
+    border: 4px solid #94ADDF;
+}
+.logout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3E397E;
+    border-radius: 24px;
+    background-color: #ffffff;
+    padding: 8px 40px;
+    gap: 8px;
+    /* font */
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0A2640;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url("/image/note.png");
+    background-repeat: no-repeat;
+
+    width: 84%;
+    height: 59.9%;
+    margin-top: 3%;
+}
+
+.body_header{
+    width: 100%;
+    height: 13.8%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.number{
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+    margin-left: 3%;
+
+    font-family: 'Shrikhand';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 95px;
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #191B41;
+}
+
+.body_body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 51%;
+    margin: 0px;
+}
+.body_left{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+}
+.photo{
+    width: 66%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.body_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+}
+.answer{
+    width: 71%;
+    height: 26%;
+    background: #F8F0FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    /* text */
+    font-family: 'B612';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+.answer:hover{
+    background: #EAD8F9;}
+
+.body_footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 32.6%;
+    margin: 0px;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 15.8%;
+    margin: 4% 0% 0% 0%;
+
+    /* font */
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+    width: 100%;
+    height: 18%;
+    margin: 0px;
+}
+.goTo{
+    width: 1.6%;
+    height: 14%;
+    background: #424242;
+    background-image: url("/image/ic-github.png");
+    background-repeat: no-repeat;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}

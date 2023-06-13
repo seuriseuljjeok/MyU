@@ -1,0 +1,102 @@
+.containter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.idTitle {
+  margin-right: 54px;
+  margin-left: 10px;
+  margin-top: 40px;
+
+  font-family: "B612";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: end;
+}
+
+.middleTitle {
+  margin-right: 56px;
+  margin-left: 10px;
+  margin-top: 100px;
+
+  font-family: "B612";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: end;
+}
+
+.pwTitle {
+  margin-right: 56px;
+  margin-left: 10px;
+  margin-top: 100px;
+
+  font-family: "B612";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: end;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+}
+.idInput {
+  margin-top: 10px;
+  width: 500px;
+  height: 80px;
+
+  border: 2px solid #7f83d5;
+  border-radius: 20px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  padding-left: 43px;
+}
+.pwInput {
+  margin-top: 80px;
+  width: 500px;
+  height: 80px;
+
+  border: 2px solid #7f83d5;
+  border-radius: 20px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  padding-left: 43px;
+}
+
+.loginBtn {
+  width: 410px;
+  height: 80px;
+  background: #f8f0ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-top: 110px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  border: none;
+}
+
+.loginBtn:hover {
+  background-color: rgba(234, 216, 249, 1);
+}
